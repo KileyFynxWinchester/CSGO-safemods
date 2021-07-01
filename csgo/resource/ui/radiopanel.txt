@@ -1,0 +1,242 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"0"
+			"title"	"#Commands"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger Yes"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative No"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"cheer FUCKYE"
+				}
+
+  				"thanks"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+				"needrop"
+				{
+					"hotkey"	"5"
+					"label"	"#Need Drop"
+					"cmd"	"needrop"
+				}
+				"go_a"
+				{
+					"hotkey"	"6"
+					"label"	"#Go A"
+					"cmd"	"go_a"
+				}
+				"go_b"
+				{
+					"hotkey"	"7"
+					"label"	"#Go B"
+					"cmd"	"go_b"
+				}
+			        "getout"
+				{
+					"hotkey"	"8"
+					"label"	"#Run Away"
+					"cmd"	"getout"
+				}
+				"deathcry"
+				{
+					"hotkey"	"9"
+					"label"	"#UwU"
+					"cmd"	"playerradio deathcry UwU"
+				}
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"#Clantags"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"clan1"
+				{
+					"hotkey"	"1"
+					"label"	"#Kooky Quirky"
+					"cmd"	"cl_clanid 39512066"
+				}
+				"clan2"
+				{
+					"hotkey"	"2"
+					"label"	"#GG"
+					"cmd"	"cl_clanid 12455"
+				}
+				
+				"clan3"
+				{
+					"hotkey"	"3"
+					"label"	"#Im Hacking"
+					"cmd"	"cl_clanid 40772596"
+				}
+				
+				"clan4"
+				{
+					"hotkey"	"4"
+					"label"	"#DINOSOWER!"
+					"cmd"	"cl_clanid 5793658"
+				}
+				
+				"clan5"
+				{
+					"hotkey"	"5"
+					"label"	"#CLG Official"
+					"cmd"	"cl_clanid 29083689"
+				}
+								
+				"clan6"
+				{
+					"hotkey"	"6"
+					"label"	"#CLG Red"
+					"cmd"	"cl_clanid 9375384"
+				}
+				"clan9"
+				{
+					"hotkey"	"9"
+					"label"	"#Clear Tag"
+					"cmd"	"cl_clanid 0"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"#Server"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"bhop"
+				{
+					"hotkey"	"1"
+					"label"	"#Bunny Hop"
+					"cmd"	"bhopping"
+				}
+				
+				"surf"
+				{
+					"hotkey"	"2"
+					"label"	"#Surfing"
+					"cmd"	"surfing1"
+				}
+				
+				"god"
+				{
+					"hotkey"	"3"
+					"label"	"#Godmode"
+					"cmd"	"god"
+				}		
+				"infammo"
+				{
+					"hotkey"	"4"
+					"label"	"#Infinite Ammo"
+					"cmd"	"ammoinf"
+				}		
+				"timefreeze"
+				{
+					"hotkey"	"5"
+					"label"	"#Freeze Time"
+					"cmd"	"freezetime"
+				}		
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#Fun/Say Commands"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"ignoreradio"
+				{
+					"hotkey"	"1"
+					"label"	"#Toggle Radio"
+					"cmd"	"Ignore_Raido_Commands"
+				}
+				"voice_on"
+				{
+					"hotkey"	"2"
+					"label"	"#Voice Enable"
+					"cmd"	"voiceON"
+				}
+				"voice_off"
+				{
+					"hotkey"	"3"
+					"label"	"#Voice Disable"
+					"cmd"	"voiceOFF"
+				}
+				"sens15"
+				{
+					"hotkey"	"4"
+					"label"	"#Normal Sensitivity"
+					"cmd"	"sens1"
+				} 
+				"sens9999"
+				{
+					"hotkey"	"5"
+					"label"	"#High Sensitivity"
+					"cmd"	"sens2"
+				}
+				"say1"
+				{
+					"hotkey"	"6"
+					"label"	"#OH NO!"
+					"cmd"	"say1"
+				}
+				"say2"
+				{
+					"hotkey"	"7"
+					"label"	"#High AF"
+					"cmd"	"say2"
+				}
+				"say3"
+				{
+					"hotkey"	"8"
+					"label"	"#Bunny Pics"
+					"cmd"	"say3"
+				}
+				"say4"
+				{
+					"hotkey"	"9"
+					"label"	"#Encourage Team"
+					"cmd"	"say4"
+				}
+			}
+		}
+	}
+}
